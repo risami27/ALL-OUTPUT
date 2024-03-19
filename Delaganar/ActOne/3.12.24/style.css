@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+
+img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    background: linear-gradient(to right, rgb(25, 80, 161), rgb(48, 158, 90));
+}
+
+.classLeft{
+    width: 50%;
+    padding: 1rem;
+    margin-top: 150px;
+}
+
+.classRight{
+    width: 50%;
+    padding: 1rem;
+    margin-top: 150px;
+}
+
+h1{
+    font-family: sans-serif;
+    margin-block-end: 1rem;
+    background-color: red;
+    background-image: linear-gradient(45deg, #f0e96f, #e66a8d);
+    background-size: 100%;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;    
+}
+
+p{
+    font-size: 1rem;
+    font-family: sans-serif;
+    margin-block-end: 1rem;
+    color:chocolate;
+}
+
+button{
+    color:black;
+    background-color: pink;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    margin-top: 1rem;
+    border-radius: 0.5rem;
+    margin-right: 2rem;
+    padding: 10px;
+}
+
+button:hover{
+    color:aliceblue ;
+    background-color: pink ;
+}
+nav {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  nav a {
+    font-weight: 100px;
+    position: inherit;
+    color: #333;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+
+  nav a:hover {
+    color: #fff;
+    background-color: #000;
+  }
